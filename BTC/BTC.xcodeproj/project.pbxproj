@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252E1AEA254D282A0022E316 /* BTCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E1AE9254D282A0022E316 /* BTCApp.swift */; };
+		252E1AEC254D282A0022E316 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E1AEB254D282A0022E316 /* ContentView.swift */; };
+		252E1AEE254D282B0022E316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252E1AED254D282B0022E316 /* Assets.xcassets */; };
+		252E1AF1254D282B0022E316 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252E1AF0254D282B0022E316 /* Preview Assets.xcassets */; };
+		252E1B00254D28460022E316 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252E1AFF254D28460022E316 /* WidgetKit.framework */; platformFilter = ios; };
+		252E1B02254D28460022E316 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252E1B01254D28460022E316 /* SwiftUI.framework */; };
+		252E1B05254D28460022E316 /* BTCWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252E1B04254D28460022E316 /* BTCWidget.swift */; };
+		252E1B07254D28470022E316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252E1B06254D28470022E316 /* Assets.xcassets */; };
+		252E1B0B254D28470022E316 /* BTCWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 252E1AFD254D28460022E316 /* BTCWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		25802D2525569BF600E1E0FD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25802D2425569BF600E1E0FD /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252E1B09254D28470022E316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 252E1ADE254D282A0022E316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252E1AFC254D28460022E316;
+			remoteInfo = BTCWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		252E1B0F254D28470022E316 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				252E1B0B254D28470022E316 /* BTCWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		252050272556A3CC003DFAB0 /* BTC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTC.entitlements; sourceTree = "<group>"; };
+		252050282556A3CC003DFAB0 /* BTCWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTCWidgetExtension.entitlements; sourceTree = "<group>"; };
+		252E1AE6254D282A0022E316 /* BTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		252E1AE9254D282A0022E316 /* BTCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCApp.swift; sourceTree = "<group>"; };
+		252E1AEB254D282A0022E316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		252E1AED254D282B0022E316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252E1AF0254D282B0022E316 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		252E1AF2254D282B0022E316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252E1AFD254D28460022E316 /* BTCWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BTCWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		252E1AFF254D28460022E316 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		252E1B01254D28460022E316 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		252E1B04254D28460022E316 /* BTCWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCWidget.swift; sourceTree = "<group>"; };
+		252E1B06254D28470022E316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252E1B08254D28470022E316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25802D2425569BF600E1E0FD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252E1AE3254D282A0022E316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252E1AFA254D28460022E316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E1B02254D28460022E316 /* SwiftUI.framework in Frameworks */,
+				252E1B00254D28460022E316 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252E1ADD254D282A0022E316 = {
+			isa = PBXGroup;
+			children = (
+				252050282556A3CC003DFAB0 /* BTCWidgetExtension.entitlements */,
+				252E1AE8254D282A0022E316 /* BTC */,
+				252E1B03254D28460022E316 /* BTCWidget */,
+				252E1AFE254D28460022E316 /* Frameworks */,
+				252E1AE7254D282A0022E316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252E1AE7254D282A0022E316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252E1AE6254D282A0022E316 /* BTC.app */,
+				252E1AFD254D28460022E316 /* BTCWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252E1AE8254D282A0022E316 /* BTC */ = {
+			isa = PBXGroup;
+			children = (
+				252050272556A3CC003DFAB0 /* BTC.entitlements */,
+				25802D2425569BF600E1E0FD /* Launch Screen.storyboard */,
+				252E1AE9254D282A0022E316 /* BTCApp.swift */,
+				252E1AEB254D282A0022E316 /* ContentView.swift */,
+				252E1AED254D282B0022E316 /* Assets.xcassets */,
+				252E1AF2254D282B0022E316 /* Info.plist */,
+				252E1AEF254D282B0022E316 /* Preview Content */,
+			);
+			path = BTC;
+			sourceTree = "<group>";
+		};
+		252E1AEF254D282B0022E316 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				252E1AF0254D282B0022E316 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		252E1AFE254D28460022E316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				252E1AFF254D28460022E316 /* WidgetKit.framework */,
+				252E1B01254D28460022E316 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		252E1B03254D28460022E316 /* BTCWidget */ = {
+			isa = PBXGroup;
+			children = (
+				252E1B04254D28460022E316 /* BTCWidget.swift */,
+				252E1B06254D28470022E316 /* Assets.xcassets */,
+				252E1B08254D28470022E316 /* Info.plist */,
+			);
+			path = BTCWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252E1AE5254D282A0022E316 /* BTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252E1AF5254D282B0022E316 /* Build configuration list for PBXNativeTarget "BTC" */;
+			buildPhases = (
+				252E1AE2254D282A0022E316 /* Sources */,
+				252E1AE3254D282A0022E316 /* Frameworks */,
+				252E1AE4254D282A0022E316 /* Resources */,
+				252E1B0F254D28470022E316 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252E1B0A254D28470022E316 /* PBXTargetDependency */,
+			);
+			name = BTC;
+			productName = BTC;
+			productReference = 252E1AE6254D282A0022E316 /* BTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252E1AFC254D28460022E316 /* BTCWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252E1B0C254D28470022E316 /* Build configuration list for PBXNativeTarget "BTCWidgetExtension" */;
+			buildPhases = (
+				252E1AF9254D28460022E316 /* Sources */,
+				252E1AFA254D28460022E316 /* Frameworks */,
+				252E1AFB254D28460022E316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCWidgetExtension;
+			productName = BTCWidgetExtension;
+			productReference = 252E1AFD254D28460022E316 /* BTCWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252E1ADE254D282A0022E316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					252E1AE5254D282A0022E316 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					252E1AFC254D28460022E316 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 252E1AE1254D282A0022E316 /* Build configuration list for PBXProject "BTC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252E1ADD254D282A0022E316;
+			productRefGroup = 252E1AE7254D282A0022E316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252E1AE5254D282A0022E316 /* BTC */,
+				252E1AFC254D28460022E316 /* BTCWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252E1AE4254D282A0022E316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25802D2525569BF600E1E0FD /* Launch Screen.storyboard in Resources */,
+				252E1AF1254D282B0022E316 /* Preview Assets.xcassets in Resources */,
+				252E1AEE254D282B0022E316 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252E1AFB254D28460022E316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E1B07254D28470022E316 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252E1AE2254D282A0022E316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E1AEC254D282A0022E316 /* ContentView.swift in Sources */,
+				252E1AEA254D282A0022E316 /* BTCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252E1AF9254D28460022E316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E1B05254D28460022E316 /* BTCWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252E1B0A254D28470022E316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252E1AFC254D28460022E316 /* BTCWidgetExtension */;
+			targetProxy = 252E1B09254D28470022E316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		252E1AF3254D282B0022E316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252E1AF4254D282B0022E316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252E1AF6254D282B0022E316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTC/BTC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"BTC/Preview Content\"";
+				DEVELOPMENT_TEAM = S67SCH2M8N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.advaitthepro.home.BTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252E1AF7254D282B0022E316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTC/BTC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"BTC/Preview Content\"";
+				DEVELOPMENT_TEAM = S67SCH2M8N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.advaitthepro.home.BTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		252E1B0D254D28470022E316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BTCWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S67SCH2M8N;
+				INFOPLIST_FILE = BTCWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advaitthepro.home.BTC.BTCWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252E1B0E254D28470022E316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BTCWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S67SCH2M8N;
+				INFOPLIST_FILE = BTCWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.advaitthepro.home.BTC.BTCWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252E1AE1254D282A0022E316 /* Build configuration list for PBXProject "BTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252E1AF3254D282B0022E316 /* Debug */,
+				252E1AF4254D282B0022E316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252E1AF5254D282B0022E316 /* Build configuration list for PBXNativeTarget "BTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252E1AF6254D282B0022E316 /* Debug */,
+				252E1AF7254D282B0022E316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252E1B0C254D28470022E316 /* Build configuration list for PBXNativeTarget "BTCWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252E1B0D254D28470022E316 /* Debug */,
+				252E1B0E254D28470022E316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252E1ADE254D282A0022E316 /* Project object */;
+}
