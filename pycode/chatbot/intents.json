@@ -1,0 +1,67 @@
+{"intents" : [
+  { "tag": "greetings",
+    "patterns": [
+      "hello",
+      "hey",
+      "hi",
+      "good day",
+      "howdy",
+      "good morning",
+      "good evening",
+      "good afternoon",
+      "whats up",
+      "hows it going"
+    ],
+    "responses": [
+      "Hello there! How can I help you?",
+      "Howdy",
+      "Good Day",
+      "I'm doing great! How can I help you?"
+    ]
+  },
+  { "tag": "name",
+    "patterns": [
+      "what is your name?",
+      "what do i call you",
+      "who are you?",
+      "can i know your name?"
+    ],
+    "responses": [
+      "Howdy, I'm ATPin! AdvaitThePro's virtual assistant",
+      "You can call me Atpin"
+    ]
+  },
+
+  { "tag": "hours",
+    "patterns": [
+      "what times are you available",
+      "when can i contact you",
+      "what is your hours",
+      "when are you open"
+    ],
+    "responses": [
+      "I'm open 24/7 though my owner is only available 3p.m. to 6p.m.!"
+    ]
+  },
+
+  { "tag": "age",
+    "patterns": [
+      "what is your age?"
+    ],
+    "responses": [
+      "My owner AdvaitThePro is 12 but I'm 1 hour old!"
+    ]
+  },
+
+  { "tag": "stocks",
+    "patterns": [
+      "what stocks do i have",
+      "what do i have in the market",
+      "what is the stock market for me"
+    ],
+    "responses": [
+      "You own 100 APPL, ABBV, FB, NVDA and an ETF of the S&P 500, Dow Jones and Nasdaq!"
+    ]
+  }
+
+]}
